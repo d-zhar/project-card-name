@@ -1,0 +1,295 @@
+@import url(./reset.css);
+
+.background__style {
+  background: #f0f1fc;
+  width: 1920px;
+  height: 1080px;
+}
+
+.wrapper {
+  margin-top: 200px;
+  margin-left: 325px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  height: 488px;
+  width: 749px;
+}
+
+.header__wrapper {
+  padding: 24px;
+  gap: 32px;
+  display: flex;
+}
+
+/* Левый блок с фото юзера */
+.header__user-img {
+  background: url(./img/photo-user.png) no-repeat center / cover;
+  border-radius: 24px;
+  height: 228px;
+  width: 212px;
+}
+
+/* Правый блок с данными юзера */
+
+.header__user-data {
+  height: 228px;
+  width: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.header__user-data__username {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.header__user-data__employee-data {
+  display: flex;
+  margin: 8px 0px;
+}
+
+.employee-data__how-long-working {
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1a942a;
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  border: 1px solid #c0edc9;
+  background: #dcf9e3;
+  margin-right: 12px;
+}
+
+.employee-data__employee-number {
+  display: flex;
+}
+
+.employee-number__text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.employee-number__coppy-button {
+  background: url(./svg/Copy.svg) no-repeat center / cover;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  margin-right: 12px;
+  border: none;
+}
+
+.employee-data__post {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+}
+
+.employee-data__rating {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+  margin-left: 35px;
+}
+
+/* Склад */
+
+.header__block__stock {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+  margin-top: 8px;
+}
+
+/* Номер телефона */
+
+.header__block__telephon {
+  display: flex;
+  width: 212px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 24px 0px;
+}
+
+.telephon__text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+}
+
+.telephon__number {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #262626;
+}
+
+/* Гражданство и Контракт */
+
+.header__block__city-contract {
+  display: flex;
+  gap: 32px;
+}
+
+.block__city-contract__style {
+  display: flex;
+  width: 212px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.block__style__name {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+}
+
+.block__style__text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* Средний блок */
+
+.main__wrapper {
+  height: 140px;
+  border-top: 1px solid #b6b6b640;
+  border-bottom: 1px solid #b6b6b640;
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 32px;
+}
+
+/* Номер пропуска */
+
+.main__wrapper__block__pass {
+  height: 80px;
+  width: 212px;
+}
+
+.main__wrapper__block__entrance {
+  height: 92px;
+  width: 212px;
+}
+
+.main__wrapper__block__exit {
+  height: 92px;
+  width: 213px;
+}
+
+.main__wrapper__block__name {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #737373;
+  margin-bottom: 4px;
+}
+
+.main__wrapper__block__text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.main__wrapper__block__name-shadow {
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #b6b6b6cf;
+}
+
+.main__wrapper__block__name__bind-new {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8f07cf;
+  cursor: pointer;
+}
+
+/* Нижний блок печать памятки\уволить */
+
+.bottom__wrapper {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.bottom__wrapper-style {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8f07cf;
+  cursor: pointer;
+}
+
+.bottom__wrapper-style__print {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8f07cf;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.bottom__wrapper-style__dismiss {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8f07cf;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
